@@ -1,5 +1,6 @@
 import axios from "axios";
 
 export const axiosInstance=axios.create({
-    baseURL:" https://mstreamweb.herokuapp.com/api/"
+    baseURL:" https://mstreambackend.vercel.app/api/"
+
 })
